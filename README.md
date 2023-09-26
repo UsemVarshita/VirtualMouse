@@ -2,15 +2,15 @@
 
 The aim of this project is to recognise and trigger mouse actions based on the user's gestures.
 
-##Installation
+## Installation
 All libraries can be installed using pip or anaconda
 
-##Libraries Used
+## Libraries Used
 OpenCV - To capture real-time video of the user 
 MediaPipe - For recognising hand gestures based on 21 hand-knuckle coordinates
 AutoPy, Pyautogui - To trigger mouse actions
 
-##Actions
+## Actions
 Description                                                          Action
 Index finger up (on left or right hand.)
 All other fingers closed.                                        Cursor Movement
@@ -23,5 +23,5 @@ Little and Thumb fingers closed.                                   Right Click
 
 All fingers up except the thumb (on the left or right hand.)        Scrolling 
 
-##Execution
+## Execution
 Run python3 MouseControl.py
